@@ -1,0 +1,140 @@
+.school{
+    
+    font-size: xx-large;
+}
+.future{
+    
+    font-size: xx-large;
+   
+}.personal{
+    background-color: #8cc0ff;
+    
+}
+.navbar{
+    
+    font-size:xx-large;
+}
+/* .container{
+    display: grid;
+    background-color: #8ca0ff;
+    grid-template-columns: 1fr  300px;
+    grid-template-rows: 150px 150px 150px;
+    column-gap: 15px;
+    row-gap: 10px;
+    grid-auto-flow:column;
+} */
+
+
+/* .aside {
+    height: 100%;
+    width: 2.8cm;
+    border: #b50909 2px solid;
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: repeat(3,50px);
+    column-gap: 15px;
+    row-gap: 10px;
+    grid-auto-flow:column;
+    
+  } */
+/* .box2 {
+height: 100%;
+width: 100%;
+border: #1379b4 2px solid;
+display: grid;
+grid-template-columns: repeat(2, 100px);
+grid-template-rows: repeat(3,100px);
+column-gap: 15px;
+row-gap: 10px;
+grid-auto-flow:column;
+
+} */
+
+
+/* .item {
+background: #afa;
+}
+
+.item2 {
+background: #aaf;
+}
+.item3 {
+    background: rgb(144, 144, 187);
+} */ 
+    
+/* #page {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-areas:
+      "head head"
+      "nav  main"
+      "nav  foot";
+    grid-template-rows: 50px 1fr ;
+    grid-template-columns: 150px 1fr;
+  }
+  
+  #page > header {
+    grid-area: head;
+    background-color: #8ca0ff;
+  }
+  
+  #page > nav {
+    grid-area: nav;
+    background-color: #ffa08c;
+  }
+  
+  #page > main {
+    grid-area: main;
+    background-color: #ffff64;
+  }
+  
+  #page > footer {
+    grid-area: foot;
+    background-color: #8cffa0;
+  } */
+
+
+.box {
+height: 100%;
+width: 100%;
+
+display: grid;
+grid-template-columns: repeat(2, 100px);
+grid-template-rows: repeat(6, 100px);
+grid-template-areas:
+    "A A B B"
+    "A A B B"
+    "A A B B"
+    "A A B B"
+    "A A B B"
+    "A A B B"
+ ;
+}
+
+.item1 {
+grid-area: A;
+
+}
+
+
+.item2 {
+    grid-area: B;
+    
+    border: #1379b4 2px solid;
+}
+.grid-item3{
+    
+    background: rgb(176, 217, 240);
+    font-size: x-large;
+}
+.grid-item4{
+    
+    background: rgb(176, 217, 240);
+    font-size: x-large;
+}
+.grid-item5{
+    
+    background: rgb(176, 217, 240);
+    font-size: x-large;
+}
